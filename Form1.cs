@@ -37,12 +37,14 @@ namespace Herencia12
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             type = 1;
+            textBox1.Enabled = true;
             
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             type = 2;
+            textBox1.Enabled = false;
         }
 
         // numero de piso

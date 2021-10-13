@@ -38,6 +38,7 @@ namespace Herencia12
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@ namespace Herencia12
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -119,6 +119,7 @@ namespace Herencia12
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(20, 77);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 20);
@@ -153,6 +154,15 @@ namespace Herencia12
             this.groupBox2.Size = new System.Drawing.Size(279, 229);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(19, 170);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 13);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Resultado:";
             // 
             // textBox7
             // 
@@ -231,15 +241,6 @@ namespace Herencia12
             this.textBox3.Size = new System.Drawing.Size(240, 20);
             this.textBox3.TabIndex = 2;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(19, 170);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 13);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Resultado:";
             // 
             // Form1
             // 

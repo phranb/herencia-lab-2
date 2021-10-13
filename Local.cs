@@ -17,7 +17,7 @@ namespace Herencia12
 
             if (Ventanas > 4)
             {
-                calculated = calculated + Precio + Precio * 1.02;
+                calculated = calculated + Precio * 1.02;
             }
             return calculated;
         }
